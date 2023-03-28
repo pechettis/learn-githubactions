@@ -31,7 +31,7 @@ jobs:
         uses: snyk/actions/maven@master
         with:
           branch: sastanalysis
-        continue-on-error: true
+        #continue-on-error: true
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
   # zap_scan:
