@@ -1,4 +1,4 @@
-name: SAST scan
+name: SAST scan sonar
 on: push
 
 jobs:
